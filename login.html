@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>任务3</title>
+    <link rel="stylesheet" href="./login_style.css">
+</head>
+
+<body>
+    <div style="height: 750px; display: flex;flex-direction: column; /* 设置子元素上下排列 */ position: relative; background-image: url('./img/登录页/登录背景.png'); background-size: cover;background-position: center; ">
+
+        <div
+            style="width: 700px;height: 350px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); background-color:whitesmoke;border-radius: 15px; margin-top: 150px;margin-left: 400px;display: flex;flex-direction: row; ">
+            <div style="width: 40%;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); border-radius: 15px;">
+                <img style="width: 280px; height: 350px; border-radius: 15px;" src="./img/登录页/左边.png">
+            </div>
+
+            <div style="width: 60%;border-radius: 15px;display: flex;flex-direction: column; /* 设置子元素上下排列 */ ">
+
+                <div style="height: 80%; display: flex;flex-direction: column;">
+
+                    <span style="left: 125px; top: 60px; position: relative; width: 60%; font-family: 'Microsoft YaHei', sans-serif; font-weight: bold;">欢迎使用京东，请登录</span>
+
+
+                    <form id="loginForm" action="qq" method="post"  style="width: 300px;height: 200px;
+                    margin-top: 80px; margin-left: 60px;background-color: wheat;border-radius: 15px; display: flex;flex-direction: column; ">
+
+
+                            <span style="height: 33.3%; display: flex; ">
+                                <span style="position: relative; left: 20px;height: 50%;top: 25px;font-family: 'Microsoft YaHei', sans-serif; font-weight: bold;">用名：</span>
+                                <input style="position: relative;border-radius: 10px;  height: 40%;width: 70%;left: 20px; top:23px ;" type="text" name="username" size="15">
+                            </span>
+                            <span style="height: 33.3%; display: flex;">
+                                <span style="position: relative; left: 20px;height: 50%;top: 17px;font-family: 'Microsoft YaHei', sans-serif; font-weight: bold;">密码：</span>
+                                <input style="position: relative;border-radius: 10px;  height: 40%;width: 70%;left: 20px; top:15px ;" type="password" name="password" size="15">
+                            </span>
+                            <span style="height: 33.3%; background-color: wheat;   border-bottom-left-radius: 15px; /* 设置左下角的圆角半径 */
+    border-bottom-right-radius: 15px; /* 设置右下角的圆角半径 */ display: flex;">
+                                <input class="denglu"  type="submit" value="登录">
+                                <input class="zhuce" type="reset" value="取消">
+                            </span>
+
+                    </form>
+
+                </div>
+
+
+                <div style="height: 20%;display: flex; background-color: rgb(160, 172, 141);">
+
+                    <span style="width: 70px;height: 20px;position: relative; left: 350px;top: 70%;"><a style="color: rgb(39, 90, 140); text-decoration: none; font-family: 'Microsoft YaHei', sans-serif;
+                     font-weight: bold;" href="./register.html">立即注册</a></span>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+     
+
+    </div>
+
+</body>
+
+
+
+</html>
